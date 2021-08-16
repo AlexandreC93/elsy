@@ -1,0 +1,16 @@
+.container-fluid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+}
+
+.box{
+    height: 190px;
+    background: rgb(129, 114, 114);
+}
+
+.box:nth-child(even){
+    background-color: gray;
+}
